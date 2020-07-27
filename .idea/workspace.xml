@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="82ab6187-6853-4fbd-bc6d-db3806922701" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Substep Feature" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1aKzoVhBdwI9jbgcotBkMO3EnZe" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="D:/Nuvolar_AmazonTask" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ismailkoembe\Desktop\LoginFunction\src\test\resources\features" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Oguz ILGAR\Downloads\LoginFunctionTemplate\src\test\java\com\API_automation" />
+      <recent name="C:\Users\Oguz ILGAR\Downloads\LoginFunctionTemplate\src\test\java\com\company\pages" />
+      <recent name="C:\Users\ismailkoembe\Desktop\LoginFunctionTemplate\src\test\resources\features" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.CukesRunner">
+    <configuration name="CukesRunner (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Rakuten_tv_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.API_automation.runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.API_automation.runners" />
+      <option name="MAIN_CLASS_NAME" value="com.API_automation.runners.CukesRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CukesRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Rakuten_tv_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Automation.runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.Automation.runners" />
+      <option name="MAIN_CLASS_NAME" value="com.Automation.runners.CukesRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FailedTestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Rakuten_tv_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Automation.runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.Automation.runners" />
+      <option name="MAIN_CLASS_NAME" value="com.Automation.runners.FailedTestRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CukesRunner" />
+        <item itemvalue="JUnit.FailedTestRunner" />
+        <item itemvalue="JUnit.CukesRunner (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="82ab6187-6853-4fbd-bc6d-db3806922701" name="Default Changelist" comment="" />
+      <created>1586499248167</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586499248167</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.feature" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="120" y="121" width="1680" height="799" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1588073937495">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="120" y="121" width="1680" height="799" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588073937495" />
+    <state x="811" y="412" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1587998885872">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="811" y="412" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587998885872" />
+    <state x="464" y="146" key="FileChooserDialogImpl" timestamp="1595868656578">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="464" y="146" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1595868656578" />
+    <state x="580" y="184" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1587994074456" />
+    <state x="696" y="223" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1588081891342" />
+    <state width="914" height="272" key="GridCell.Tab.0.bottom" timestamp="1588337881548">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1540" height="247" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1587281896470" />
+    <state width="914" height="272" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588337881548" />
+    <state width="914" height="272" key="GridCell.Tab.0.center" timestamp="1588337881547">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1540" height="247" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1587281896470" />
+    <state width="914" height="272" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588337881547" />
+    <state width="914" height="272" key="GridCell.Tab.0.left" timestamp="1588337881547">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1540" height="247" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1587281896470" />
+    <state width="914" height="272" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588337881547" />
+    <state width="914" height="272" key="GridCell.Tab.0.right" timestamp="1588337881547">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1540" height="247" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1587281896470" />
+    <state width="914" height="272" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588337881547" />
+    <state x="668" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1588090457750">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="668" y="347" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588090457750" />
+    <state x="342" y="224" key="new project wizard" timestamp="1588082002071">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="342" y="224" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1588082002071" />
+  </component>
+</project>

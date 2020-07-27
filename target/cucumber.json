@@ -1,0 +1,1239 @@
+[
+  {
+    "line": 4,
+    "elements": [
+      {
+        "start_timestamp": "2020-05-01T12:58:11.550Z",
+        "line": 7,
+        "name": "Verify DELETE method works for movies",
+        "description": "",
+        "id": "delete-operation-for-all-the-endpoints;verify-delete-method-works-for-movies",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4487639800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user should be able to delete a movie with id \"369\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"369\"",
+                  "offset": 50
+                }
+              ],
+              "location": "API_DELETE_method_Step_Defs.the_user_should_be_able_to_delete_a_movie_with_id(String)"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@All"
+          },
+          {
+            "name": "@APIDeleteTest"
+          },
+          {
+            "name": "@deleteMovie"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-05-01T12:58:16.066Z",
+        "line": 12,
+        "name": "Verify DELETE method works for audio_qualities",
+        "description": "",
+        "id": "delete-operation-for-all-the-endpoints;verify-delete-method-works-for-audio-qualities",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 687729000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the user should be able to delete a audio_qualities with id \"85\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"85\"",
+                  "offset": 60
+                }
+              ],
+              "location": "API_DELETE_method_Step_Defs.the_user_should_be_able_to_delete_a_audio_qualities_with_id(String)"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@All"
+          },
+          {
+            "name": "@APIDeleteTest"
+          },
+          {
+            "name": "@deleteAudio_qualities"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-05-01T12:58:16.756Z",
+        "line": 17,
+        "name": "Verify DELETE method works for video_qualities",
+        "description": "",
+        "id": "delete-operation-for-all-the-endpoints;verify-delete-method-works-for-video-qualities",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 685577900,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "the user should be able to delete a video_qualities with id \"87\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"87\"",
+                  "offset": 60
+                }
+              ],
+              "location": "API_DELETE_method_Step_Defs.the_user_should_be_able_to_delete_a_video_qualities_with_id(String)"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@All"
+          },
+          {
+            "name": "@APIDeleteTest"
+          },
+          {
+            "name": "@deleteVideo_qualities"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-05-01T12:58:17.447Z",
+        "line": 22,
+        "name": "Verify DELETE method works for genres",
+        "description": "",
+        "id": "delete-operation-for-all-the-endpoints;verify-delete-method-works-for-genres",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 705974400,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "the user should be able to delete a genres with id \"108\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"108\"",
+                  "offset": 51
+                }
+              ],
+              "location": "API_DELETE_method_Step_Defs.the_user_should_be_able_to_delete_a_genres_with_id(String)"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@All"
+          },
+          {
+            "name": "@APIDeleteTest"
+          },
+          {
+            "name": "@deleteGenres"
+          }
+        ]
+      }
+    ],
+    "name": "DELETE operation for all the endPoints",
+    "description": "",
+    "id": "delete-operation-for-all-the-endpoints",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/DELETE_method.feature",
+    "tags": [
+      {
+        "name": "@All",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@APIDeleteTest",
+        "type": "Tag",
+        "location": {
+          "line": 3,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 5,
+    "elements": [
+      {
+        "start_timestamp": "2020-05-01T12:58:18.158Z",
+        "line": 8,
+        "name": "Verify GET methods works",
+        "description": "",
+        "id": "get-operation-for-all-the-endpoints;verify-get-methods-works",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2712089700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user should be able to use get methods with following endPoints",
+            "match": {
+              "location": "API_GET_method_Step_Defs.the_user_should_be_able_to_use_get_methods_with_following_endPoints(String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "movies",
+                  "audio_qualities",
+                  "video_qualities",
+                  "genres"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@All"
+          },
+          {
+            "name": "@APIGetTest"
+          },
+          {
+            "name": "@get"
+          }
+        ]
+      }
+    ],
+    "name": "GET Operation for all the endpoints",
+    "description": "",
+    "id": "get-operation-for-all-the-endpoints",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/GET_method.feature",
+    "tags": [
+      {
+        "name": "@All",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@APIGetTest",
+        "type": "Tag",
+        "location": {
+          "line": 3,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 4,
+    "elements": [
+      {
+        "start_timestamp": "2020-05-01T12:58:20.874Z",
+        "line": 7,
+        "name": "Verify POST method works for movies",
+        "description": "",
+        "id": "post-operation-for-all-the-endpoints;verify-post-method-works-for-movies",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1201197300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user should be able to post a movie with following data",
+            "match": {
+              "location": "API_POST_method_Step_Defs.the_user_should_be_able_to_post_a_movie_with_following_data(String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "title",
+                  "Salamanca Diary"
+                ]
+              },
+              {
+                "cells": [
+                  "year",
+                  "2020"
+                ]
+              },
+              {
+                "cells": [
+                  "plot",
+                  "Stay home family"
+                ]
+              },
+              {
+                "cells": [
+                  "duration",
+                  "175"
+                ]
+              },
+              {
+                "cells": [
+                  "audio_qualities",
+                  ""
+                ]
+              },
+              {
+                "cells": [
+                  "video_qualities",
+                  ""
+                ]
+              },
+              {
+                "cells": [
+                  "genres",
+                  ""
+                ]
+              }
+            ],
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@All"
+          },
+          {
+            "name": "@APIPostTest"
+          },
+          {
+            "name": "@postMovie"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-05-01T12:58:22.084Z",
+        "line": 18,
+        "name": "Verify POST method works for audio_qualities",
+        "description": "",
+        "id": "post-operation-for-all-the-endpoints;verify-post-method-works-for-audio-qualities",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 667218600,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "the user should be able to post a audio_qualities with following data",
+            "match": {
+              "location": "API_POST_method_Step_Defs.the_user_should_be_able_to_post_a_audio_qualities_with_following_data(String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "name",
+                  "The Boys win"
+                ]
+              },
+              {
+                "cells": [
+                  "abbr",
+                  "2027"
+                ]
+              },
+              {
+                "cells": [
+                  "position",
+                  "null"
+                ]
+              },
+              {
+                "cells": [
+                  "default",
+                  "true"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@All"
+          },
+          {
+            "name": "@APIPostTest"
+          },
+          {
+            "name": "@postAudio_qualities"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-05-01T12:58:22.755Z",
+        "line": 26,
+        "name": "Verify POST method works for video_qualities",
+        "description": "",
+        "id": "post-operation-for-all-the-endpoints;verify-post-method-works-for-video-qualities",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 693622800,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "the user should be able to post a video_qualities with following data",
+            "match": {
+              "location": "API_POST_method_Step_Defs.the_user_should_be_able_to_post_a_video_qualities_with_following_data(String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "name",
+                  "The Next Cites"
+                ]
+              },
+              {
+                "cells": [
+                  "abbr",
+                  "DTS 5.8"
+                ]
+              },
+              {
+                "cells": [
+                  "position",
+                  "null"
+                ]
+              },
+              {
+                "cells": [
+                  "default",
+                  "false"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@All"
+          },
+          {
+            "name": "@APIPostTest"
+          },
+          {
+            "name": "@postVideo_qualities"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-05-01T12:58:23.455Z",
+        "line": 35,
+        "name": "Verify POST method works for genres",
+        "description": "",
+        "id": "post-operation-for-all-the-endpoints;verify-post-method-works-for-genres",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1014113300,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "the user should be able to post a genres",
+            "match": {
+              "location": "API_POST_method_Step_Defs.the_user_should_be_able_to_post_a_genres()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@All"
+          },
+          {
+            "name": "@APIPostTest"
+          },
+          {
+            "name": "@postGenres"
+          }
+        ]
+      }
+    ],
+    "name": "POST operation for all the endPoints",
+    "description": "",
+    "id": "post-operation-for-all-the-endpoints",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/POST_method.feature",
+    "tags": [
+      {
+        "name": "@All",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@APIPostTest",
+        "type": "Tag",
+        "location": {
+          "line": 3,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 4,
+    "elements": [
+      {
+        "start_timestamp": "2020-05-01T12:58:24.473Z",
+        "line": 7,
+        "name": "Verify PUT method works for movies",
+        "description": "",
+        "id": "put-operation-for-all-the-endpoints;verify-put-method-works-for-movies",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 695191000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user should be able to put a movie with id \"290\" and following data",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"290\"",
+                  "offset": 47
+                }
+              ],
+              "location": "API_PUT_method_Step_Defs.the_user_should_be_able_to_put_a_movie_with_id_and_following_data(String,String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "title",
+                  "Spain Diaries_abc"
+                ]
+              },
+              {
+                "cells": [
+                  "year",
+                  "2020"
+                ]
+              },
+              {
+                "cells": [
+                  "plot",
+                  "Stay together family"
+                ]
+              },
+              {
+                "cells": [
+                  "duration",
+                  "175"
+                ]
+              },
+              {
+                "cells": [
+                  "audio_qualities",
+                  ""
+                ]
+              },
+              {
+                "cells": [
+                  "video_qualities",
+                  ""
+                ]
+              },
+              {
+                "cells": [
+                  "genres",
+                  ""
+                ]
+              }
+            ],
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@All"
+          },
+          {
+            "name": "@APIPutTest"
+          },
+          {
+            "name": "@putMovie"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-05-01T12:58:25.178Z",
+        "line": 19,
+        "name": "Verify PUT method works for audio_qualities",
+        "description": "",
+        "id": "put-operation-for-all-the-endpoints;verify-put-method-works-for-audio-qualities",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 689142200,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "the user should be able to put a audio_qualities with id \"159\" and following data",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"159\"",
+                  "offset": 57
+                }
+              ],
+              "location": "API_PUT_method_Step_Defs.the_user_should_be_able_to_put_a_audio_qualities_with_id_and_following_data(String,String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "name",
+                  "The man win"
+                ]
+              },
+              {
+                "cells": [
+                  "abbr",
+                  "2027"
+                ]
+              },
+              {
+                "cells": [
+                  "position",
+                  "null"
+                ]
+              },
+              {
+                "cells": [
+                  "default",
+                  "true"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@All"
+          },
+          {
+            "name": "@APIPutTest"
+          },
+          {
+            "name": "@putAudio_qualities"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-05-01T12:58:25.870Z",
+        "line": 28,
+        "name": "Verify PUT method works for video_qualities",
+        "description": "",
+        "id": "put-operation-for-all-the-endpoints;verify-put-method-works-for-video-qualities",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 675586200,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "the user should be able to put a video_qualities with id \"126\" and following data",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"126\"",
+                  "offset": 57
+                }
+              ],
+              "location": "API_PUT_method_Step_Defs.the_user_should_be_able_to_put_a_video_qualities_with_id_and_following_data(String,String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "name",
+                  "The last man"
+                ]
+              },
+              {
+                "cells": [
+                  "abbr",
+                  "DTS 5.8"
+                ]
+              },
+              {
+                "cells": [
+                  "position",
+                  "null"
+                ]
+              },
+              {
+                "cells": [
+                  "default",
+                  "false"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@All"
+          },
+          {
+            "name": "@APIPutTest"
+          },
+          {
+            "name": "@putVideo_qualities"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-05-01T12:58:26.548Z",
+        "line": 37,
+        "name": "Verify PUT method works for genres",
+        "description": "",
+        "id": "put-operation-for-all-the-endpoints;verify-put-method-works-for-genres",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 775311100,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "the user should be able to put a genres with id \"156\" and following data",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"156\"",
+                  "offset": 48
+                }
+              ],
+              "location": "API_PUT_method_Step_Defs.the_user_should_be_able_to_put_a_genres_with_id_and_following_data(String,String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "name",
+                  "Horror catch"
+                ]
+              }
+            ],
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@All"
+          },
+          {
+            "name": "@APIPutTest"
+          },
+          {
+            "name": "@putGenres"
+          }
+        ]
+      }
+    ],
+    "name": "PUT operation for all the endPoints",
+    "description": "",
+    "id": "put-operation-for-all-the-endpoints",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/PUT_method.feature",
+    "tags": [
+      {
+        "name": "@All",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@APIPutTest",
+        "type": "Tag",
+        "location": {
+          "line": 3,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 5,
+    "elements": [
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3130974500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user navigates to login page",
+            "match": {
+              "location": "SignUp_StepDefs.the_user_navigates_to_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-05-01T12:58:27.326Z",
+        "before": [
+          {
+            "result": {
+              "duration": 11795640100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "SignUp as a new user successfully",
+        "description": "",
+        "id": "adding-a-movie-to-wishlist-successfully;signup-as-a-new-user-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 940470900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 288239300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "the user clicks register button",
+            "match": {
+              "location": "SignUp_StepDefs.the_user_clicks_register_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1200114900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the user registers successfully with valid credentials",
+            "match": {
+              "location": "SignUp_StepDefs.the_user_registers_successfully_with_valid_credentials(String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "email",
+                  "ozm15715@gmail.com"
+                ]
+              },
+              {
+                "cells": [
+                  "password",
+                  "123456abcd"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1910812300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "the user should be on the main page with username \"ozm15715\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ozm15715\"",
+                  "offset": 50
+                }
+              ],
+              "location": "SignUp_StepDefs.the_user_should_be_on_the_main_page_with_username(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@All"
+          },
+          {
+            "name": "@UItest"
+          },
+          {
+            "name": "@signUp"
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2196256100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user navigates to login page",
+            "match": {
+              "location": "SignUp_StepDefs.the_user_navigates_to_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-05-01T12:58:46.607Z",
+        "before": [
+          {
+            "result": {
+              "duration": 11135982700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "SignIn as a current user successfully",
+        "description": "",
+        "id": "adding-a-movie-to-wishlist-successfully;signin-as-a-current-user-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 1123215900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 404314300,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "the user clicks the login button",
+            "match": {
+              "location": "AddingToWishlist_StepDefs.the_user_clicks_the_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 779007000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "the user logins successfully with valid credentials",
+            "match": {
+              "location": "AddingToWishlist_StepDefs.the_user_logins_successfully_with_valid_credentials(String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "email",
+                  "ozm15715@gmail.com"
+                ]
+              },
+              {
+                "cells": [
+                  "password",
+                  "123456abcd"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1336096800,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "the user should see the notification button as a verification",
+            "match": {
+              "location": "AddingToWishlist_StepDefs.the_user_should_see_the_notification_button_as_a_verification()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5497256100,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "the user searches the movie \"Onward\" on the search button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Onward\"",
+                  "offset": 28
+                }
+              ],
+              "location": "AddingToWishlist_StepDefs.the_user_searches_the_movie_on_the_search_button(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2207543000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "the user clicks the result",
+            "match": {
+              "location": "AddingToWishlist_StepDefs.the_user_clicks_the_result()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2112589400,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "the user clicks the action icon to add to wishlist",
+            "match": {
+              "location": "AddingToWishlist_StepDefs.the_user_clicks_the_action_icon_to_add_to_wishlist()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2308835200,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "the user goes to the wishlist",
+            "match": {
+              "location": "AddingToWishlist_StepDefs.the_user_goes_to_the_wishlist()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3048570400,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "the user should see the movie \"Onward\" added to the wishlist",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Onward\"",
+                  "offset": 30
+                }
+              ],
+              "location": "AddingToWishlist_StepDefs.the_user_should_see_the_movie_added_to_the_wishlist(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@All"
+          },
+          {
+            "name": "@UItest"
+          },
+          {
+            "name": "@AddingToWishlist"
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2762047600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user navigates to login page",
+            "match": {
+              "location": "SignUp_StepDefs.the_user_navigates_to_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-05-01T12:59:18.763Z",
+        "before": [
+          {
+            "result": {
+              "duration": 11362479400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 32,
+        "name": "SignUp as a new user successfully",
+        "description": "",
+        "id": "adding-a-movie-to-wishlist-successfully;signup-as-a-new-user-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 1087316900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 817394700,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "the user clicks register button",
+            "match": {
+              "location": "SignUp_StepDefs.the_user_clicks_register_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4607408500,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "the user registers successfully with dummy credentials",
+            "match": {
+              "location": "SignUp_StepDefs.the_user_registers_successfully_with_dummy_credentials()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@All"
+          },
+          {
+            "name": "@UItest"
+          },
+          {
+            "name": "@signUpFakeData"
+          }
+        ]
+      }
+    ],
+    "name": "Adding a movie to wishList successfully",
+    "description": "",
+    "id": "adding-a-movie-to-wishlist-successfully",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/WishList.feature",
+    "tags": [
+      {
+        "name": "@All",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@UItest",
+        "type": "Tag",
+        "location": {
+          "line": 3,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

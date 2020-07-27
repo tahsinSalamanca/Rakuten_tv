@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.tablesorter.min.js"></script>
+<script src="js/Chart.min.js"></script>
+<script src="js/moment.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+<link rel="stylesheet" href="css/cucumber.css" type="text/css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
+<link rel="shortcut icon" href="images/favicon.png"/>
+
+<script>
+$(document).ready(function() {
+    // this will tell tablesorter to try looking for the data-value attribute
+    // if present, it'll sort by that instead
+    // otherwise, it'll sort by the text content of the table cell
+    $("#tablesorter").tablesorter({
+        textAttribute: 'data-value',
+        // ignores the first row of the header, the 'scenario', 'steps', since
+        // sorting those doesn't make sense
+        selectorHeaders: '> thead tr:not(.dont-sort) th',
+        // use a stable sort
+        sortStable: true
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+<title>Cucumber Reports (no 1) - Steps Overview</title>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+      <p class="navbar-text navbar-left">Cucumber Report</p>
+      <ul class="nav navbar-nav navbar-right">
+        <li role="presentation" ><a href="overview-features.html">Features</a></li>
+        <li role="presentation" ><a href="overview-tags.html">Tags</a></li>
+        <li role="presentation"     class="active" ><a href="overview-steps.html">Steps</a></li>
+        <li role="presentation" ><a href="overview-failures.html">Failures</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container-fluid">
+  <div class="col-md-5 col-md-offset-1">
+
+<table class="table table-bordered" id="build-info">
+  <thead>
+    <tr>
+      <th>Project</th>
+        <th>Number</th>
+      <th>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="info">
+      <td>Cucumber HTML Reports</td>
+        <td>1</td>
+      <td>01 May 2020, 14:59</td>
+    </tr>
+  </tbody>
+</table>
+
+  </div>
+  <div class="col-md-3 col-md-offset-2">
+  </div>
+</div>
+
+
+<div id="report-lead" class="container-fluid">
+  <div class="col-md-10 col-md-offset-1">
+    <h2>Steps Statistics</h2>
+      <p>The following graph shows step statistics for this build. Below list is based on results.
+ step does not provide information about result then is not listed below.
+ Additionally @Before and @After are not counted because they are part of the scenarios, not steps.</p>
+  </div>
+</div>
+
+<div class="container-fluid" id="report">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <table id="tablesorter" class="stats-table table-hover">
+
+        <thead>
+          <tr class="header">
+            <th>Implementation</th>
+            <th>Occurrences</th>
+            <th>Average duration</th>
+            <th>Max duration</th>
+            <th>Total durations</th>
+            <th>Ratio</th>
+          </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+              <td class="location">API_DELETE_method_Step_Defs.the_user_should_be_able_to_delete_a_audio_qualities_with_id(String)</td>
+              <td>1</td>
+              <td class="duration" data-value="687729000">0.687</td>
+              <td class="duration" data-value="687729000">0.687</td>
+              <td class="duration" data-value="687729000">0.687</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">API_DELETE_method_Step_Defs.the_user_should_be_able_to_delete_a_genres_with_id(String)</td>
+              <td>1</td>
+              <td class="duration" data-value="705974400">0.705</td>
+              <td class="duration" data-value="705974400">0.705</td>
+              <td class="duration" data-value="705974400">0.705</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">API_DELETE_method_Step_Defs.the_user_should_be_able_to_delete_a_movie_with_id(String)</td>
+              <td>1</td>
+              <td class="duration" data-value="4487639800">4.487</td>
+              <td class="duration" data-value="4487639800">4.487</td>
+              <td class="duration" data-value="4487639800">4.487</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">API_DELETE_method_Step_Defs.the_user_should_be_able_to_delete_a_video_qualities_with_id(String)</td>
+              <td>1</td>
+              <td class="duration" data-value="685577900">0.685</td>
+              <td class="duration" data-value="685577900">0.685</td>
+              <td class="duration" data-value="685577900">0.685</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">API_GET_method_Step_Defs.the_user_should_be_able_to_use_get_methods_with_following_endPoints(String&gt;)</td>
+              <td>1</td>
+              <td class="duration" data-value="2712089700">2.712</td>
+              <td class="duration" data-value="2712089700">2.712</td>
+              <td class="duration" data-value="2712089700">2.712</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">API_POST_method_Step_Defs.the_user_should_be_able_to_post_a_audio_qualities_with_following_data(String,String&gt;)</td>
+              <td>1</td>
+              <td class="duration" data-value="667218600">0.667</td>
+              <td class="duration" data-value="667218600">0.667</td>
+              <td class="duration" data-value="667218600">0.667</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">API_POST_method_Step_Defs.the_user_should_be_able_to_post_a_genres()</td>
+              <td>1</td>
+              <td class="duration" data-value="1014113300">1.014</td>
+              <td class="duration" data-value="1014113300">1.014</td>
+              <td class="duration" data-value="1014113300">1.014</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">API_POST_method_Step_Defs.the_user_should_be_able_to_post_a_movie_with_following_data(String,String&gt;)</td>
+              <td>1</td>
+              <td class="duration" data-value="1201197300">1.201</td>
+              <td class="duration" data-value="1201197300">1.201</td>
+              <td class="duration" data-value="1201197300">1.201</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">API_POST_method_Step_Defs.the_user_should_be_able_to_post_a_video_qualities_with_following_data(String,String&gt;)</td>
+              <td>1</td>
+              <td class="duration" data-value="693622800">0.693</td>
+              <td class="duration" data-value="693622800">0.693</td>
+              <td class="duration" data-value="693622800">0.693</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">API_PUT_method_Step_Defs.the_user_should_be_able_to_put_a_audio_qualities_with_id_and_following_data(String,String,String&gt;)</td>
+              <td>1</td>
+              <td class="duration" data-value="689142200">0.689</td>
+              <td class="duration" data-value="689142200">0.689</td>
+              <td class="duration" data-value="689142200">0.689</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">API_PUT_method_Step_Defs.the_user_should_be_able_to_put_a_genres_with_id_and_following_data(String,String,String&gt;)</td>
+              <td>1</td>
+              <td class="duration" data-value="775311100">0.775</td>
+              <td class="duration" data-value="775311100">0.775</td>
+              <td class="duration" data-value="775311100">0.775</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">API_PUT_method_Step_Defs.the_user_should_be_able_to_put_a_movie_with_id_and_following_data(String,String,String&gt;)</td>
+              <td>1</td>
+              <td class="duration" data-value="695191000">0.695</td>
+              <td class="duration" data-value="695191000">0.695</td>
+              <td class="duration" data-value="695191000">0.695</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">API_PUT_method_Step_Defs.the_user_should_be_able_to_put_a_video_qualities_with_id_and_following_data(String,String,String&gt;)</td>
+              <td>1</td>
+              <td class="duration" data-value="675586200">0.675</td>
+              <td class="duration" data-value="675586200">0.675</td>
+              <td class="duration" data-value="675586200">0.675</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">AddingToWishlist_StepDefs.the_user_clicks_the_action_icon_to_add_to_wishlist()</td>
+              <td>1</td>
+              <td class="duration" data-value="2112589400">2.112</td>
+              <td class="duration" data-value="2112589400">2.112</td>
+              <td class="duration" data-value="2112589400">2.112</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">AddingToWishlist_StepDefs.the_user_clicks_the_login_button()</td>
+              <td>1</td>
+              <td class="duration" data-value="404314300">0.404</td>
+              <td class="duration" data-value="404314300">0.404</td>
+              <td class="duration" data-value="404314300">0.404</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">AddingToWishlist_StepDefs.the_user_clicks_the_result()</td>
+              <td>1</td>
+              <td class="duration" data-value="2207543000">2.207</td>
+              <td class="duration" data-value="2207543000">2.207</td>
+              <td class="duration" data-value="2207543000">2.207</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">AddingToWishlist_StepDefs.the_user_goes_to_the_wishlist()</td>
+              <td>1</td>
+              <td class="duration" data-value="2308835200">2.308</td>
+              <td class="duration" data-value="2308835200">2.308</td>
+              <td class="duration" data-value="2308835200">2.308</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">AddingToWishlist_StepDefs.the_user_logins_successfully_with_valid_credentials(String,String&gt;)</td>
+              <td>1</td>
+              <td class="duration" data-value="779007000">0.779</td>
+              <td class="duration" data-value="779007000">0.779</td>
+              <td class="duration" data-value="779007000">0.779</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">AddingToWishlist_StepDefs.the_user_searches_the_movie_on_the_search_button(String)</td>
+              <td>1</td>
+              <td class="duration" data-value="5497256100">5.497</td>
+              <td class="duration" data-value="5497256100">5.497</td>
+              <td class="duration" data-value="5497256100">5.497</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">AddingToWishlist_StepDefs.the_user_should_see_the_movie_added_to_the_wishlist(String)</td>
+              <td>1</td>
+              <td class="duration" data-value="3048570400">3.048</td>
+              <td class="duration" data-value="3048570400">3.048</td>
+              <td class="duration" data-value="3048570400">3.048</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">AddingToWishlist_StepDefs.the_user_should_see_the_notification_button_as_a_verification()</td>
+              <td>1</td>
+              <td class="duration" data-value="1336096800">1.336</td>
+              <td class="duration" data-value="1336096800">1.336</td>
+              <td class="duration" data-value="1336096800">1.336</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">Hooks.setUp()</td>
+              <td>3</td>
+              <td class="duration" data-value="11431367400">11.431</td>
+              <td class="duration" data-value="11431367400">11.795</td>
+              <td class="duration" data-value="34294102200">34.294</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">Hooks.tearDown(Scenario)</td>
+              <td>3</td>
+              <td class="duration" data-value="1050334566">1.050</td>
+              <td class="duration" data-value="1050334566">1.123</td>
+              <td class="duration" data-value="3151003700">3.151</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">SignUp_StepDefs.the_user_clicks_register_button()</td>
+              <td>2</td>
+              <td class="duration" data-value="552817000">0.552</td>
+              <td class="duration" data-value="552817000">0.817</td>
+              <td class="duration" data-value="1105634000">1.105</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">SignUp_StepDefs.the_user_navigates_to_login_page()</td>
+              <td>3</td>
+              <td class="duration" data-value="2696426066">2.696</td>
+              <td class="duration" data-value="2696426066">3.130</td>
+              <td class="duration" data-value="8089278200">8.089</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">SignUp_StepDefs.the_user_registers_successfully_with_dummy_credentials()</td>
+              <td>1</td>
+              <td class="duration" data-value="4607408500">4.607</td>
+              <td class="duration" data-value="4607408500">4.607</td>
+              <td class="duration" data-value="4607408500">4.607</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">SignUp_StepDefs.the_user_registers_successfully_with_valid_credentials(String,String&gt;)</td>
+              <td>1</td>
+              <td class="duration" data-value="1200114900">1.200</td>
+              <td class="duration" data-value="1200114900">1.200</td>
+              <td class="duration" data-value="1200114900">1.200</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">SignUp_StepDefs.the_user_should_be_on_the_main_page_with_username(String)</td>
+              <td>1</td>
+              <td class="duration" data-value="1910812300">1.910</td>
+              <td class="duration" data-value="1910812300">1.910</td>
+              <td class="duration" data-value="1910812300">1.910</td>
+              <td class="passed">100.00%</td>
+            </tr>
+        </tbody>
+
+        <tfoot class="total">
+          <tr>
+            <td>28</td>
+            <td>35</td>
+            <td class="duration">2.506</td>
+            <td class="duration">34.294</td>
+            <td class="duration">1:27.742</td>
+            <td>Totals</td>
+          </tr>
+        </tfoot>
+
+      </table>
+    </div>
+  </div>
+</div>
+
+
+<nav class="navbar navbar-default" id="footer">
+  <div class="container-fluid">
+    <p class="navbar-text navbar-right">
+        <small>generate Cucumber HTML reports via:&nbsp;</small>
+        <a class="navbar-link" href="https://github.com/jenkinsci/cucumber-reports-plugin">Jenkins Plugin</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-reporting">Standalone</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-sandwich">Sandwich</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/maven-cucumber-reporting">Maven</a>
+        &nbsp;&nbsp;
+    </p>
+  </div>
+</nav>
+
+</body>
+</html>
